@@ -23,7 +23,7 @@ console.log(`Your gross salary is: `+ grossSalary+ ` Euro`+`. Your pensions cont
 //     if (taxableAmount<=80 && taxableAmount>0){
 //         return `Net slaray is:`+ taxableAmount+` Euro`;
 //     }
-//     if (taxableAmount<=250 && taxableAmount>80){
+//     else if (taxableAmount<=250 && taxableAmount>80){
 //         return `Net slaray is:`+ (taxableAmount-(taxableAmount-80)*0.04)+` Euro`;
 //     }
 //     else if (taxableAmount<=450 && taxableAmount>250){
