@@ -12,7 +12,7 @@ let netSalary=taxableAmount-allTaxes;
 console.log(`Your gross salary is: `+ grossSalary+ ` Euro`+`. Your pensions contributions are: `+ grossSalary*pensionsContributions+ ` Euro`+ ` and your all taxes are: `+ allTaxes+ ` Euro.`+
 ` Finaly your net salary is: `+ netSalary+ ` Euro`);
 
-// calculation net salary for every salary
+// // calculation net salary for every salary
 
 // function grossSalary(x){
 //     const taxRateBetween0and80=0;
@@ -20,6 +20,9 @@ console.log(`Your gross salary is: `+ grossSalary+ ` Euro`+`. Your pensions cont
 //     const taxRateBetween250and450=16; 
 //     let pensionsContributions=0.05;
 //     let taxableAmount= x - x*pensionsContributions;
+//     if (taxableAmount<=80 && taxableAmount>0){
+//         return `Net slaray is:`+ taxableAmount+` Euro`;
+//     }
 //     if (taxableAmount<=250 && taxableAmount>80){
 //         return `Net slaray is:`+ (taxableAmount-(taxableAmount-80)*0.04)+` Euro`;
 //     }
