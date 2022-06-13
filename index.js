@@ -1,3 +1,5 @@
+//calculation net salary for 500 euro in manual way
+
 let grossSalary = 500;
 let pensionsContributions=0.05;
 let taxableAmount= grossSalary - grossSalary*pensionsContributions;
